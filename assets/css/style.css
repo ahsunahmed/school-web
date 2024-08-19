@@ -1,0 +1,375 @@
+/* Reset Code */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: verdana;
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	font-size: 14px;
+	color: #333;
+}
+
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+/* Header Area CSS */
+
+.logo a img {
+  max-width: 200px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  font-size: 17px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  color: #333;
+}
+.header-area {
+  padding: 15px 0;
+}
+.btn {
+  background-color: darkblue;
+  color: #fff !important;
+  padding: 10px 15px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+
+/* Banner Area CSS */
+.banner-area{
+	padding-bottom: 150px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-left h1 {
+  font-size: 45px;
+}
+.banner-right img {
+  max-width: ;
+  width: 600px;
+}
+.btn-group a:nth-child(1) {
+  background-color: orangered;
+}
+.btn-group {
+  margin-top: 20px;
+}
+.btn-group a {
+  font-size: 20px;
+}
+.banner-left p {
+  font-size: 18px;
+  color: grey;
+  margin-top: 20px;
+}
+
+/* Course Categlog CSS */
+
+.section-title p {
+  color: orangered;
+  font-size: 22px;
+  font-weight: bold;
+}
+.section-title h2 {
+  font-size: 40px;
+}
+.section-title {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+.course-catelog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+.course-left img {
+  width: 100%;
+  max-width: 700px;
+}
+.course-right {
+  display: grid;
+  grid-template-columns: 220px 220px;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}
+.single-course img {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+.single-course {
+  background-color: lightcyan;
+  padding: 20px 10px;
+  text-align: center;
+}
+.single-course h3 {
+  font-size: 18px;
+}
+.single-course p {
+  font-size: 14px;
+  line-height: 35px;
+}
+.single-course a {
+  color: orange;
+}
+
+/* Accredition Area CSS */
+
+.accredition {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accredit-left h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.accredit-left img {
+  width: ;
+  max-width: 800px;
+}
+.accredit-right h2 {
+  font-size: 35px;
+  margin-bottom: 43px;
+}
+
+
+/* Map Area CSS */
+
+.map-area {
+  padding: 50px 0;
+}
+.map-area h2 {
+  font-size: 38px;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+.map-area img {
+  max-width: 1050px;
+  text-align: center;
+}
+.map-area {
+  text-align: center;
+}
+
+/* Contact Area CSS */
+
+.contact-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.message-left h2 {
+  font-size: 50px;
+  color: darkblue;
+}
+.message-left p {
+  font-size: 23px;
+  color: gray;
+}
+.message-right img {
+}
+.contact-message-area {
+  padding: 50px 0;
+}
+.message-left {
+  padding-top: 150px;
+}
+.contact-area {
+  padding: 50px 0;
+}
+.contact-area .container h2 {
+  text-align: center;
+  font-size: 35px;
+  color: darkblue;
+  margin-bottom: 50px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-left {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-gap: 10px;
+}
+.single-contact img {
+  max-width: 50px;
+}
+.single-contact {
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single-contact h3 {
+  font-size: 22px;
+  color: ;
+  margin: 10px 0;
+}
+.single-contact p {
+  font-size: 15px;
+}
+.contact-right form input {
+  padding: 10px;
+  display: block;
+  width: 99%;
+  margin-bottom: 10px;
+}
+.contact-right form input:nth-child(1),.contact-right form input:nth-child(2) {
+  width: 49%;
+  display: inline-block !important;
+}
+.contact-right form {
+  width: ;
+  text-align: center;
+}
+.contact-right {
+  width: 700px;
+}
+.contact-right textarea {
+  width: 99%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.contact-right input[type="submit"] {
+  display: inline-block;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 18px;
+  width: 250px;
+
+}
+
+
+/* CTA Area CSS */
+
+.cta-area {
+  padding: 50px 0 10px;
+  text-align: center;
+  background-image: url('../images/BG.png');
+}
+.cta-area h2 {
+  font-size: 35px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 50px;
+}
+.cta-area a {
+  margin-top: ;
+  margin: 30px 0;
+  background: orange;
+}
+.cta-area p{
+	margin-top: 10px;
+	color: #fff;
+}
+.cta-area span{
+	color: red;
+}
+
+
+/* Pricing Area CSS */
+.price-area{
+	padding: 50px 0;
+}
+
+.prices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  margin-top: 50px;
+}
+.single-price {
+  padding: 45px 50px;
+  border: 3px solid #000;
+  height: 600px;
+}
+
+.single-price h3 {
+  font-size: 25px;
+}
+
+
+.Amount {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000;
+}
+.Amount span {
+  font-size: 30px;
+}
+.month {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.single-price hr {
+  width: ;
+  height: 3px;
+  color: ;
+  background: #000;
+}
+.single-price {
+}
+.single-price ul li {
+  list-style: disc;
+  font-size: 18px;
+  text-align: ;
+  padding-left: ;
+}
+.single-price ul {
+  text-align: ;
+  padding-left: 35px;
+  margin-top: ;
+  margin-top: 50px;
+}
+.single-price a {
+  font-size: 25px;
+  border: 3px solid aqua;
+  padding: 10px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  transition: 0.3s;
+}
+.single-price a:hover{
+	background-color: steelblue;
+	color: #fff;
+}
